@@ -39,12 +39,27 @@ A regression model developed using Linear Regression to estimate house prices ba
 - Provide a function to generate predictions from user-supplied feature values
 
 ---
-
 ## How to Run
 
 ### Option 1: Run Locally (Jupyter Notebook)
 
-1. Clone the repository:
+1. Install required dependencies:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   pip install -r requirements.txt
+### Launch Jupyter Notebook
+- Run the following command:
+  - `jupyter notebook`
+
+### Open the notebook files
+- `spam_mail_detector.ipynb`
+- `house_price_predictor.ipynb`
+
+### Run the project
+- Run all cells and upload your dataset when prompted.
+
+---
+
+### Option 2: Run on Google Colab
+- Open the notebook in Google Colab.
+- Upload the CSV file when requested.
+- Run all cells in order.
